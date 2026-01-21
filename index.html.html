@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sihan Sikder | Facebook Ads Strategist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="nav-logo">
+                <div class="logo-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div>
+                    <div class="logo-text">Sihan Sikder</div>
+                    <div class="logo-title">Facebook Ads Strategist</div>
+                </div>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#tracking" class="nav-link">Tracking</a>
+                <a href="#cta" class="nav-link">Contact</a>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <button class="mobile-nav-close" id="mobileNavClose">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="mobile-nav-links">
+            <a href="#hero" class="mobile-nav-link">Home</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#skills" class="mobile-nav-link">Skills</a>
+            <a href="#process" class="mobile-nav-link">Process</a>
+            <a href="#tracking" class="mobile-nav-link">Tracking</a>
+            <a href="#cta" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Overlay for mobile menu -->
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title" id="heroTitle">Sihan Sikder</h1>
+                <p class="hero-subtitle" id="heroSubtitle">Reduce Your Facebook Ad Waste</p>
+                <div class="hero-role" id="heroRole">Facebook Ads Strategist & E-commerce Growth Expert</div>
+                <p class="hero-description" id="heroDescription">I help entrepreneurs optimize their Facebook & Instagram ad campaigns, identify funnel leaks, and implement advanced tracking to reduce budget waste and maximize ROAS.</p>
+                
+                <div class="social-logos" id="socialLogos">
+                    <a href="https://www.facebook.com/sihansikder2021" target="_blank" class="social-logo facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-logo instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="social-logo meta">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                </div>
+                
+                <a href="#cta" class="cta-button" id="heroCta">Book a Free Strategy Call</a>
+            </div>
+        </div>
+        
+        <!-- Facebook Ad Visual Animation -->
+        <div class="ad-visual-container" id="adVisual">
+            <div class="ad-visual">
+                <!-- Facebook Ad Mockup -->
+                <div class="facebook-ad">
+                    <div class="facebook-ad-header">
+                        <i class="fab fa-facebook"></i> Facebook Ad
+                    </div>
+                    <div class="facebook-ad-content">
+                        <div class="ad-image"></div>
+                        <div class="ad-text">
+                            <strong>E-commerce Store</strong> - Boost your sales with targeted Facebook ads. Limited time offer!
+                        </div>
+                        <button class="ad-cta">Shop Now</button>
+                    </div>
+                </div>
+                
+                <!-- E-commerce Visual -->
+                <div class="ecommerce-visual">
+                    <div class="ecommerce-header">
+                        <div class="ecommerce-title">Sales Dashboard</div>
+                        <div class="cart-animation">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="ecommerce-stats">
+                        <div class="ecommerce-stat">
+                            <div class="stat-value">+42%</div>
+                            <div class="stat-label">Conversions</div>
+                        </div>
+                        <div class="ecommerce-stat">
+                            <div class="stat-value">-35%</div>
+                            <div class="stat-label">CPC</div>
+                        </div>
+                        <div class="ecommerce-stat">
+                            <div class="stat-value">3.8x</div>
+                            <div class="stat-label">ROAS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Data Chart Animation -->
+                <div class="data-chart">
+                    <div class="chart-header">Campaign Performance</div>
+                    <div class="chart-container">
+                        <div class="chart-bar" style="--height: 60%"></div>
+                        <div class="chart-bar" style="--height: 85%"></div>
+                        <div class="chart-bar" style="--height: 45%"></div>
+                        <div class="chart-bar" style="--height: 70%"></div>
+                        <div class="chart-bar" style="--height: 95%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-background"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" id="aboutImage">
+                    <div style="width:100%;height:400px;background:var(--gradient);opacity:0.1;border-radius:var(--border-radius);"></div>
+                </div>
+                <div class="about-text">
+                    <h2 id="aboutTitle">Turning Ad Spend into Revenue</h2>
+                    <p id="aboutText1">With over 5 years of experience in Facebook and Instagram advertising, I've helped businesses of all sizes optimize their ad strategies to reduce wasteful spending and improve conversion rates.</p>
+                    <p id="aboutText2">My approach combines data analysis with creative optimization to identify exactly where your funnel is leaking customers and implement precise tracking to measure what truly matters.</p>
+                    <div class="stats" id="aboutStats">
+                        <div class="stat-item">
+                            <div class="stat-number">40%+</div>
+                            <div class="stat-label">Avg. ROAS Increase</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">$2M+</div>
+                            <div class="stat-label">Ad Spend Managed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Clients Helped</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What I Do</h2>
+                <p class="section-subtitle">Comprehensive Facebook & Instagram advertising services to optimize your campaigns and maximize results</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="service1">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Facebook Ad Campaign Audit</h3>
+                    <p>In-depth analysis of your current Facebook & Instagram ad campaigns to identify performance gaps, budget waste, and optimization opportunities.</p>
+                </div>
+                <div class="service-card" id="service2">
+                    <div class="service-icon">
+                        <i class="fas fa-funnel-dollar"></i>
+                    </div>
+                    <h3>Funnel Analysis & Optimization</h3>
+                    <p>Identify exactly where potential customers drop off in your conversion funnel and implement data-driven fixes to improve conversion rates.</p>
+                </div>
+                <div class="service-card" id="service3">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Facebook Pixel Setup</h3>
+                    <p>Proper implementation and configuration of Facebook Pixel to ensure accurate tracking of conversions, events, and customer behavior.</p>
+                </div>
+                <div class="service-card" id="service4">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Server-Side Tracking</h3>
+                    <p>Implement advanced server-side tracking to overcome iOS 14+ limitations and ensure data accuracy for better optimization decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Specialized knowledge in Facebook advertising and conversion optimization</p>
+            </div>
+            <div class="skills-container">
+                <div class="skill-item" id="skill1">
+                    <div class="skill-icon">
+                        <i class="fab fa-facebook-square"></i>
+                    </div>
+                    <h3>Facebook & Instagram Ads</h3>
+                    <p>Campaign strategy, audience targeting, creative optimization, and performance analysis across Facebook's advertising ecosystem.</p>
+                </div>
+                <div class="skill-item" id="skill2">
+                    <div class="skill-icon">
+                        <i class="fas fa-search-dollar"></i>
+                    </div>
+                    <h3>Ad Account Audit</h3>
+                    <p>Comprehensive review of ad account structure, budget allocation, bidding strategies, and campaign performance to identify optimization opportunities.</p>
+                </div>
+                <div class="skill-item" id="skill3">
+                    <div class="skill-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3>Funnel Analysis</h3>
+                    <p>Mapping customer journeys, identifying drop-off points, and implementing improvements to increase conversion rates at every stage.</p>
+                </div>
+                <div class="skill-item" id="skill4">
+                    <div class="skill-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>Advanced Tracking</h3>
+                    <p>Facebook Pixel, Conversions API, server-side tracking, and event configuration to ensure accurate data collection for optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Process</h2>
+                <p class="section-subtitle">A systematic approach to identifying and fixing ad performance issues</p>
+            </div>
+            <div class="process-container">
+                <div class="process-step" id="step1">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Analyze</h3>
+                        <p>Comprehensive audit of your current Facebook ad account, campaign structure, audience targeting, and conversion tracking setup.</p>
+                    </div>
+                </div>
+                <div class="process-step" id="step2">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Detect Waste</h3>
+                        <p>Identify areas of budget waste, underperforming audiences, inefficient bidding strategies, and funnel leaks that drain your ad spend.</p>
+                    </div>
+                </div>
+                <div class="process-step" id="step3">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Fix & Track</h3>
+                        <p>Implement optimizations, fix tracking issues, set up proper event tracking, and ensure accurate data collection for future decisions.</p>
+                    </div>
+                </div>
+                <div class="process-step" id="step4">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Scale</h3>
+                        <p>Once campaigns are optimized and tracking is accurate, systematically scale winning strategies while maintaining efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tracking Section -->
+    <section id="tracking">
+        <div class="container">
+            <div class="tracking-content">
+                <div class="tracking-text">
+                    <h2 id="trackingTitle">Data Accuracy is Everything</h2>
+                    <p id="trackingText1">With iOS 14+ changes affecting traditional tracking methods, accurate data collection is more critical than ever for Facebook advertising success.</p>
+                    <p id="trackingText2">I implement advanced tracking solutions including Facebook Pixel, Conversions API, and server-side tracking to ensure you have reliable data for optimization decisions.</p>
+                    <p id="trackingText3">Without accurate tracking, you're making optimization decisions based on incomplete or incorrect data—essentially wasting your ad budget.</p>
+                </div>
+                <div class="tracking-visual" id="trackingVisual">
+                    <div style="width:100%;height:400px;background:var(--gradient-accent);opacity:0.1;border-radius:var(--border-radius);"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+        <div class="cta-background"></div>
+        <div class="container">
+            <div class="cta-container">
+                <h2 class="cta-title" id="ctaTitle">Ready to Reduce Your Ad Waste?</h2>
+                <p class="cta-description" id="ctaDescription">Book a free 30-minute strategy call to analyze your current Facebook ad performance and identify immediate opportunities for improvement.</p>
+                
+                <div class="cta-buttons">
+                    <a href="https://wa.me/8801914795242" target="_blank" class="cta-button" id="ctaButton">
+                        <i class="fab fa-whatsapp"></i> Message on WhatsApp
+                    </a>
+                    <a href="mailto:sihan25700@gmail.com" class="cta-button-secondary" id="emailCta">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                </div>
+                
+                <div class="email-contact" id="emailContact">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sihan25700@gmail.com">sihan25700@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Sihan Sikder</div>
+                <div class="footer-title">Facebook Ads Strategist & E-commerce Growth Expert</div>
+                <div class="footer-links">
+                    <a href="#hero" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#services" class="footer-link">Services</a>
+                    <a href="#skills" class="footer-link">Skills</a>
+                    <a href="#process" class="footer-link">Process</a>
+                    <a href="#tracking" class="footer-link">Tracking</a>
+                    <a href="#cta" class="footer-link">Contact</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.facebook.com/sihansikder2021" target="_blank" class="social-link facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link meta">
+                        <i class="fab fa-meta"></i>
+                    </a>
+                    <a href="https://wa.me/8801914795242" target="_blank" class="social-link whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="mailto:sihan25700@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:sihan25700@gmail.com">sihan25700@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/8801914795242" target="_blank">+8801914795242</a>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    &copy; <span id="currentYear"></span> Sihan Sikder. All rights reserved. | Facebook Ads Strategist
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
